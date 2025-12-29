@@ -4,8 +4,8 @@ B(2,2): √((2−2)² + (1−2)²) = √(0 + 1) = 1.0
 C(4,4): √((2−4)² + (1−4)²) = √(4 + 9) = √13 ≈ 3.6
 
 Nearest neighbors:
-A (1.0) → Cat
-B (1.0) → Dog
+A (1.0) - Cat
+B (1.0) - Dog
 one Cat and one Dog → Tie
 
 ---
@@ -93,7 +93,9 @@ p = 1 / (1 + e^(−1))
 = 1 / (1 + 0.3679)  
 = 0.7311
 
-Since 0.7311 > 0.70 - B. Above the threshold
+Since 0.7311 > 0.70 - 
+
+- B
 
 ---
 
@@ -116,7 +118,7 @@ Accuracy = (3+4+5) / (3+1+0 + 2+4+1 + 0+1+5)
 
 ---
 
-9) B. Overfitting
+9)- B
 
 ---
 
@@ -124,7 +126,7 @@ Accuracy = (3+4+5) / (3+1+0 + 2+4+1 + 0+1+5)
 Value = 1·2 + (−1)·1 + 2·1 + (−3)  
 = 2 − 1 + 2 − 3  
 = 0  
-So: C. Point lies exactly on the surface
+C
 
 ---
 
@@ -166,11 +168,11 @@ Population std = √43.2 = 6.5727
 
 ---
 
-16) C. The data contains input features and known output labels
+16) - C
 
 ---
 
-17) B. Regression predicts continuous values while classification predicts discrete classes
+17) - B
 
 ---
 
@@ -182,11 +184,11 @@ MSE = (2·5 + 8·4) / 10
 
 ---
 
-19) C. Training learns parameters; test evaluates performance on unseen data
+19) C
 
 ---
 
-20) C. Both classification and regression
+20) C
 
 ---
 
@@ -197,20 +199,20 @@ x=4 - [1,4,16]
 x=8 - [1,8,64]  
 x=10 - [1,10,100]
 
-Answer: B — [1,4,16], [1,8,64], [1,10,100]
+B — [1,4,16], [1,8,64], [1,10,100]
 
 ---
 
-22) B. Increases complexity and the risk of overfitting
+22) B
 
 ---
 
-23) B) Adjusted R² penalizes models for adding features that do not improve the model significantly
+23) B
 
 ---
 
-24) C. A probability estimate
+24) C
 
 ---
 
-25) B. Accuracy
+25) B
